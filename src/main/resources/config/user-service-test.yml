@@ -1,0 +1,7 @@
+spring:
+  active:
+    profiles: test
+description: Test microservice for users
+my:
+  property:
+    test: Hello test!

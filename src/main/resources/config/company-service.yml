@@ -1,0 +1,12 @@
+server:
+  address: main-service
+  port: 8088
+description: Microservice for company
+my:
+  property:
+    test: Company Service
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/microservices?currentSchema=company-schema
+    username: user
+    password: postgres

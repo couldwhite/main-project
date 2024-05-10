@@ -1,0 +1,11 @@
+server:
+  port: 8089
+description: Microservice for users
+my:
+  property:
+    test: User Service
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/microservices?currentSchema=user-schema
+    username: user
+    password: postgres
